@@ -14,20 +14,11 @@ function whileLoop(n){
 	}
 	return "done"
 }
+var num = 0;
+
 function doWhileLoop(num) {
-  function incrementVariable() {
-  i = i + 1;
-  return i;
-}
-
-do {
-  console.log("I run once regardless.");
-} while (incrementVariable() < 5
-    return Math.random() >= 0.5
-  }
-
-  do {
-    array.pop();
-  } while (array.length > -1 && maybeTrue());
-    return array;
+  var i = 1;
+  do{
+    console.log("I run once regardless.");
+  }while(i++ < num);
 }
