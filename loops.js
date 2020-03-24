@@ -19,7 +19,6 @@ function doWhileLoop(array) {
   i = i + 1;
   return i;
 }
-
 do {
   console.log("I run once regardless.");
 } while (incrementVariable() < 5
@@ -30,4 +29,5 @@ do {
     array.pop();
   } while (array.length > -1 && maybeTrue());
     return array;
+	}
 }
